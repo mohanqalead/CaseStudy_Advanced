@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-23T11:14:39 IST" name="SauceDemoSuite" finished-at="2024-11-23T11:14:45 IST" duration-ms="6361">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGCucumberRunner@6892b3b6]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-11-23T11:14:39 IST" name="SauceDemoTests" finished-at="2024-11-23T11:14:45 IST" duration-ms="6361">
+      <class name="runner.TestNGCucumberRunner">
+        <test-method is-config="true" signature="setup()[pri:0, instance:runner.TestNGCucumberRunner@6892b3b6]" started-at="2024-11-23T11:14:36 IST" name="setup" finished-at="2024-11-23T11:14:39 IST" duration-ms="2665" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestNGCucumberRunner@6892b3b6]" started-at="2024-11-23T11:14:39 IST" name="setUpClass" finished-at="2024-11-23T11:14:40 IST" duration-ms="732" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@764b14b8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGCucumberRunner@6892b3b6]" started-at="2024-11-23T11:14:40 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-23T11:14:45 IST" duration-ms="5472" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify complete purchase workflow on SauceDemo"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["SauceDemo Portal End-to-End Test"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestNGCucumberRunner@6892b3b6]" started-at="2024-11-23T11:14:45 IST" name="tearDownClass" finished-at="2024-11-23T11:14:45 IST" duration-ms="105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:runner.TestNGCucumberRunner@6892b3b6]" started-at="2024-11-23T11:14:45 IST" name="tearDown" finished-at="2024-11-23T11:14:45 IST" duration-ms="262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- runner.TestNGCucumberRunner -->
+    </test> <!-- SauceDemoTests -->
+  </suite> <!-- SauceDemoSuite -->
+</testng-results>
