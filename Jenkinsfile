@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'CaseStudy_Advanced', url: 'https://github.com/mohanqalead/CaseStudy_Advanced.git'
+                git branch: 'main', url: 'https://github.com/mohanqalead/CaseStudy_Advanced.git'
             }
         }
         
